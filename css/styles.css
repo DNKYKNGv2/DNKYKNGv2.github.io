@@ -11610,6 +11610,7 @@ body {
 	z-index: -1;
 	height: auto;
 	width: 100%;
+	min-width: 1280px;
 }
 
 .masthead h1, .masthead .h1 {
