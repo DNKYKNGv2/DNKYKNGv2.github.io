@@ -7263,8 +7263,15 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
+.selfieimg {
+  	width: 30%;
+	height: 30%;
+	float: right;
+	align-content: flex-end;
+}
+
 .justify-content-center {
-  justify-content: center !important;
+  justify-content: left !important;
 }
 
 .justify-content-between {
@@ -11562,12 +11569,20 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+.portfolio_video {
+	position: absolute;
+	z-index: -1;
+	height: auto;
+	width: 100%;
+}
+
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
