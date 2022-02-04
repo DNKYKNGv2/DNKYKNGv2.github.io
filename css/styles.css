@@ -1404,6 +1404,8 @@ progress {
   .col-lg-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+	position: relative;
+	left: -150px;
   }
 
   .col-lg-9 {
@@ -7265,9 +7267,34 @@ textarea.form-control-lg {
 
 .selfieimg {
   	width: 30%;
-	height: 30%;
+	height: 65%;
 	float: right;
 	align-content: flex-end;
+	box-sizing: border-box;
+	position: relative;
+	left: -100px;
+	
+/*	padding-bottom: 25%;*/
+}
+
+.UWELOGO {
+	width: 15%;
+	height: 65%;
+	align-content: flex-end;
+	box-sizing: border-box;
+	position: relative;
+	left: 90%;
+	bottom: 520px;
+}
+
+.SGSLOGO {
+	width: 15%;
+	height: 15%;
+	align-content: flex-end;
+	box-sizing: border-box;
+	position: relative;
+	left: 75%;
+	bottom: 345px;
 }
 
 .justify-content-center {
@@ -8022,7 +8049,9 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+/*  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;*/
+  background-image: url("../img/escheresque.png");
+  background-repeat: repeat;
 }
 
 .bg-dark {
@@ -11621,7 +11650,9 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+/*  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+  background-image: url("../img/what-the-hex-dark.png");
+  background-repeat: repeat
 }
 .about-section p {
   margin-bottom: 5rem;
